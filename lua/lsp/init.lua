@@ -4,7 +4,7 @@
 
 -- Servers to enable; each must be installed on the system,
 -- e.g. "lua_ls" (lua-language-server), "pyright", "bashls".
-local servers = {}
+local servers = { "marksman" }
 
 vim.lsp.enable(servers)
 
